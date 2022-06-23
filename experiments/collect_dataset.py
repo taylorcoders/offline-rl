@@ -11,7 +11,7 @@ from acme.agents.tf import actors
 from utils import RandomActor, DemonstrationRecorder, _build_environment, load_wb_model
 
 
-flags.DEFINE_string('environment_name', 'MiniGrid-Empty-6x6-v0', 'MiniGrid env name.')
+flags.DEFINE_string('environment_name', 'MiniGrid-DistShift1-v0', 'MiniGrid env name.')
 flags.DEFINE_string('save_dir', 'datasets/random', 'Direcotry to which the dataset will be saved.')
 flags.DEFINE_integer('n_episodes', 100, 'Number of episodes to collect.')
 flags.DEFINE_integer('max_steps_per_episode', 500, 'Max number of steps in each episode.')
